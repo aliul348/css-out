@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+/* header */
+.header{
+    background-color: rgb(14, 241, 26);
+    width: 100%;
+    float: left;
+}
+.logo-part{
+    width: 35%;
+    float: left;
+    padding: 10px;
+}
+.menu-part{
+    width: 40%;
+    float: left;
+}
+.manu-part ul{
+    color: blueviolet;
+    text-align: center;
+}
+.menu-part li{
+    display: inline-block;
+    margin: 35px 10px;
+}
+.menu-part a{
+    color: rgb(252, 14, 6);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+}
+.search-part{
+    width: 25%;
+    float: left;
+}
+.search-part i{
+    font-size: 30px;
+    display: inline block;
+    margin: 15px 0px;
+    width: 10px;
+}
+input[type="search"]{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 25px auto;
+}
+input:focus{
+    background-color: chartreuse;
+    width: 50%;
+    padding: 10px;
+    transition: 0.5s;
+    cursor: grab;
+}
+input::placeholder{
+    text-align: right;
+}
+/* about part */
+.hero{
+    width: 100%;
+background-color: chartreuse;
+color: crimson;
+float: left;
+}
+.writing-part{
+    width: 50%;
+    float: left;
+}
+.img-logo a{
+    float: left;
+    width: 33.33%%;
+}
+.img-part a{
+    width: 33.33%;
+    float: left;
+}
+.png-png a{
+    width: 33.33%;
+    float: left;
+}
+/* font-part */
+.font-awesome{
+    width: 50%;
+    margin: 30px;
+    color: brown;
+}
+link{
+
+}
